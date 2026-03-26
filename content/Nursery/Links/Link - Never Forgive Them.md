@@ -1,12 +1,14 @@
 ---
 title: Link - Never Forgive Them
-draft: "false"
+draft: "true"
 tags:
   - link
   - blog-article
   - opinion
   - privacy
   - negative
+  - internet-degradation
+date: 2026-02-23
 ---
 **Link: [Never Forgive Them](https://www.wheresyoured.at/never-forgive-them/)**
 
