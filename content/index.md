@@ -16,3 +16,5 @@ Want to get better at learning? I've documented some cool resources for that at 
 I also love exploring new tools and techniques and have written about my experiences in [Experience Reports](./Experience-Reports).
 
 [Nursery](./Nursery) contains an assortment of random thoughts, ideas, and resources that don't yet have a place elsewhere. One day, they may grow into something bigger!
+
+I dislike politics, but I believe it is important to participate and make your voice heard when something is important to you. Read some of my thoughts in [Politics](./Politics). _Note that these are just my opinions and thoughts. I realize there are many perspectives for every topic, and I definitely don't understand them all. I'd be happy to respectfully discuss with anyone who would like to share their thoughts with me!_

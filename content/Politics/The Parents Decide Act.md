@@ -1,16 +1,18 @@
 ---
-title: Title
+title: The Parents Decide Act
 tags:
+  - politics
+  - letter
+  - topic-privacy
 date: 2026-04-22
-draft: "true"
 ---
-Dear ...
+Dear Representative,
 
-Thank you for what you do for our country! I wanted to write to you to encourage you to **oppose** the _Parents Decide_ Act. This act is going to do a lot more harm to our country than good.
+Thank you for what you do for our country. I wanted to write to you to encourage you to **oppose** the _Parents Decide_ Act. This act is going to do a lot more harm to our country than good.
 
 _Parents Decide_ claims to help parents decide how to protect their children. However, this is name that implies that parents can't _already_ decide how to protect their children based on their age. This is a faulty assumption. Parents are already aware of their children's age. They can already decide whether their children have access to computers, and they have access to parental controls that allow them to monitor their children's use of technology. They don't need the operating system to know the age of their child too.
 
-I am concerned about the breach of privacy that the Act proposes. **It requires that a sensitive piece of information, a person's age, be available for any app that would like to use it.** For private companies, this will enable techniques such as targeted advertising that will be harmful to the user. For example, social media has been known in the past to present beauty ads to teenage girls, which has damaged their mental health by reinforcing the message that "I'm not good enough". This would be made much easier if apps have direct access to the person's age.
+I am concerned about the breach of privacy that the Act proposes. **It requires that a sensitive piece of information, a person's age, be available for any app that would like to use it.** For companies, this will enable techniques such as targeted advertising that will be harmful to the user. For example, social media has been known in the past to present beauty ads to teenage girls, which has damaged their mental health by reinforcing the message that "I'm not good enough". This would be made much easier if apps have direct access to the person's age.
 
 In addition, once age is required to be stored in the operating system, **that opens the door for other sensitive identifying information to be stored in the operating system.** For example, maybe they want to verify the age is actually correct, so they require a state or national ID to be stored as well. This would be even _more_ problematic in terms of privacy.
 
