@@ -21,6 +21,11 @@ Jujutsu (or `jj` for short) is a distributed version control system that is work
     - `jj squash -i` (or `jj squash src/main.rs` if a file only has edits relating to one specific change
 - `jj undo` is _so useful_ for undoing mistakes that you made, and it's so easy to use!
 - `jj` is completely compatible with `git`. None of my coworkers even know that I'm using it, so I don't have to try and convince them to learn a new VCS (although I might now that I know how _awesome_ it is!)
+- Rebasing is **AMAZING**!!!
+    - My friend merged [a huge PR](https://github.com/careweather/oneil/pull/44) with changes that affected 80% of the codebase. I had [a PR](https://github.com/careweather/oneil/pull/36) that had been sitting around for a while, and I had to rebase my code off of his to get it merged.
+    - I was able to go step by step through each change, merging the conflicts that appeared at each step. Git technically lets you do this, but it's more difficult to figure out what changes were made. `jj`'s conflict markers clearly show the previous change that was made, as well as the current state of the code before the change. That description doesn't do it justice in the least, though. It's just amazing!
+    - Also, because `jj` makes it easier to keep changes grouped together, it was very clear what change I was intending to make, which allowed for better conflict resolution.
+    - I can't explain how **EPIC** it felt to rebase with `jj`! It was the best rebasing experience I've ever had!
 
 ## Disliked
 - `jj` would automatically add artifacts that weren't ignored previously to previous commits.
