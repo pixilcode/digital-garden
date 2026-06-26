@@ -7,6 +7,7 @@ tags:
 As nice as it is to have access to so many songs on YouTube, its also nice to _own_ the music that you're listening to. It doesn't require a subscription or even connection to the Internet. Plus, I can be more sure that my money is going to the _artists_, not to some streaming service.
 
 With that in mind, here is a list of songs that I would like to purchase at some point:
+
 - [x] [Kaladin — The Black Piper](https://theblackpiper.com/album/1527700/kaladin)
 - [ ] camiidae (buy each for at least $10)
     - [ ] [echoes of a little natural journey](https://camiidae.bandcamp.com/album/echoes-of-a-little-natural-journey)
@@ -42,3 +43,25 @@ With that in mind, here is a list of songs that I would like to purchase at some
     - [ ] [Train Bells (FREE)](https://wanderingartist.bandcamp.com/track/train-bells)
     - [ ] [Music in just intonation](https://wanderingartist.bandcamp.com/album/music-in-just-intonation)
     - [ ] [Music in just intonation, Vol. 2](https://wanderingartist.bandcamp.com/album/music-in-just-intonation-vol-2)
+- [ ] tottomori (WIP)
+    - [ ] [Shoreline Mistward](https://tottomori.bandcamp.com/album/shoreline-mistward)
+- [ ] [Celeste OST — Lena Raine](https://radicaldreamland.bandcamp.com/album/celeste-original-soundtrack)
+- [ ] [Hollow Knight OST — Christopher Larkin](https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack)
+- [ ] [Undertale OST — Toby Fox](https://tobyfox.bandcamp.com/album/undertale-soundtrack)
+- [ ] [Minecraft - Volume Alpha — C418](https://c418.bandcamp.com/album/minecraft-volume-alpha)
+- [ ] Mikel
+    - [ ] [Middle-Earth & Chill](https://mikeljakobi.bandcamp.com/album/middle-earth-chill)
+    - [ ] [Zelda & Chill](https://mikeljakobi.bandcamp.com/album/zelda-chill)
+    - [ ] [Zelda & Chill II](https://mikeljakobi.bandcamp.com/album/zelda-chill-2)
+    - [ ] [Zelda & Chill III](https://mikeljakobi.bandcamp.com/album/zelda-chill-iii)
+    - [ ] [Poke & Chill](https://mikeljakobi.bandcamp.com/album/pok-chill)
+    - [ ] [Poke & Chill 2](https://mikeljakobi.bandcamp.com/album/pok-chill-2-2)
+    - [ ] [The Ghibli Tape](https://mikeljakobi.bandcamp.com/album/the-ghibli-tape)
+    - [ ] [Floating](https://mikeljakobi.bandcamp.com/album/floating)
+- [ ] Mama Nous (music for kids) (not sure yet, need to listen to these)
+    - [ ] [rhymes reimagined](https://mamanous.com/products/rhymes-reimagined-album)
+    - [ ] [rhymes reimagined vol. 2](https://mamanous.com/products/rhymes-reimagined-vol-2-album)
+    - [ ] [ocean of emotions](https://mamanous.com/products/ocean-of-emotions-album)
+    - [ ] [change is inevitable](https://mamanous.com/products/change-is-inevitable)
+    - [ ] [sing your feelings](https://mamanous.com/products/sing-your-feelings)
+    - [ ] [blow a kiss to the moon](https://mamanous.com/products/blow-a-kiss-to-the-moon)
