@@ -3,7 +3,7 @@ title: Link - Writing as necessary friction
 tags:
   - link
   - topic-learning
-  - wip
+  - topic-writing
 date: 2026-04-03
 ---
 **Link: [Writing as necessary friction](https://vivqu.com/blog/2026/02/22/writing-as-necessary-friction/)**
@@ -12,7 +12,7 @@ date: 2026-04-03
     - [Writing as fitness exercise](https://vivqu.com/blog/2026/02/22/writing-as-fitness-exercise/)
     - [Writing as synchronizing with reality](https://vivqu.com/blog/2026/03/01/writing-as-synchronizing-reality/)
     - [Writing as theory-building](https://vivqu.com/blog/2026/03/25/writing-as-theory-building/)
-    - Writing as aliveness (not posted yet)
+    - [Writing as aliveness](https://vivqu.com/blog/2026/04/26/writing-as-aliveness/)
 
 Why should we write any more? Generative AI has made it possible to generate pages and pages of writing, seemingly making the written word worthless.
 
@@ -45,3 +45,13 @@ When we use AI to produce theories, whether code, mathematical proofs, or logica
 In addition, the less we understand a theory, the less likely we are to apply it. If I don't understand `git`, then I probably won't reach for it (or even think about it) when I need to track versions of a file.
 
 Writing helps us to construct, reinforce, and communicate theories.
+
+## Writing as aliveness
+
+Writing is an essential element of being _alive_. In today's world, productivity and efficiency has been made out to be the **ideal**. Life should run smoothly, and any hiccups are problems that need to be solved. However, this does not help us build a life of **meaning and significance**!
+
+> Obsession, craft, improvement, and learning are all inefficient parts of life. They are also the part of life where you are actually doing the living.
+> 
+> — Anna Helen Petersen, _Don't let the machines do the living_
+
+Writing and encountering that friction is a part of what makes life life!

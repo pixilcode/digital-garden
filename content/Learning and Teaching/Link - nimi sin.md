@@ -7,6 +7,7 @@ tags:
   - topic-learning
   - blog-article
   - topic-natural-languages
+  - topic-toki-pona
 ---
 **Link: [nimi sin](https://nora.codes/post/nimi-sin/)**
 
