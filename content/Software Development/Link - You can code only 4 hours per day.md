@@ -3,7 +3,7 @@ title: Link - You can code only 4 hours per day
 tags:
   - link
   - blog-article
-  - productivity
+  - topic-productivity
 date: 2026-03-10
 ---
 **Link: [You can code only 4 hours per day](https://newsletter.techworld-with-milan.com/p/you-can-code-only-4-hours-per-day)**
