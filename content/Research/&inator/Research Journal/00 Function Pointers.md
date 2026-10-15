@@ -1,3 +1,76 @@
+## 2026-09-30 (Wednesday, Sept 30)
+
+I need to add functions to the `STypeFrag` enum, and I'm considering two different variations.
+
+The first is just to store a type variable in the function.
+
+```rust
+STypeFrag::Fn(FnTypeVar)
+```
+
+This would be similar to a struct type fragment `STypeFrag::Struct(String)`, with the "identity" being a type variable instead of a name.
+
+However, this would be hard to get working with the `From<T: Deref<Target = Type>>` implementation, since there wouldn't be any way to get a fresh type variable. In addition, there wouldn't be a way to retain information about the param types and return types from the LLVM type.
+
+So instead, I think it's better to represent it like this:
+
+```rust
+STypeFrag::Fn {
+    param_types: Vec<STypeFrag>,
+    return_type: STypeFrag,
+}
+```
+
+However, I'm not sure if this makes sense, since this doesn't exactly preserve the types. For example, for the return type, it only preserves the _first_ `STypeFrag`, not any of the following. Maybe this is okay, I guess I just don't understand exactly how the `STypeFrag` is being used. I'll leave this as is for now, but I might need to switch it up later.
+
+---
+
+While working on testing function pointer conversion, I ran into this error :
+
+```
+thread 'main' (44604) panicked at src/lang/program.rs:71:50:
+`name` is a global variable
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
+
+This happens in `Labels::extract_var` in the following lines of code:
+
+```rust
+llvm_ir::Operand::ConstantOperand(c) => match &**c {
+    llvm_ir::Constant::GlobalReference { name, ty: _ } => {
+        Some(*self.globals.get(name).expect("`name` is a global variable"))
+    }
+    _ => None,
+},
+```
+
+Following it up the stack leads to the branch of `Instruction::from_instr` that handles `llvm_ir::Instruction::Callee`. 
+
+Specifically, when it is getting the argument variables, it somehow fails to extract some of the argument `VarIdent`s. My guess is that it is having a hard time with passing in `add`, which is a global constant? I'll dig in a bit more to find out.
+
+```rust
+let arg_vars: Vec<Option<VarIdent>> = llvm_instr
+    .arguments
+    .iter()
+    .map(|(operand, _)| labels.extract_var(func, operand))
+    //                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .collect();
+```
+
+---
+
+My new guess is that functions aren't declared in the global scope as a "variable", so they don't have a variable ID.
+
+I need to figure out how globals are defined.
+
+---
+
+I tried adding a global variable ID for each function, but that led to needing to some how instantiate a global variable for each function in a way that didn't make a ton of sense.
+
+My next plan is to try and store a `VarIdent` alongside each function.
+
+- [ ] Find a way to assign a `VarIdent` to each function
+
 ## 2026-09-25 (Friday, Sept 25)
 
 I need to **translate C function pointers into Rust function pointers**. My original plan was to translate this:
@@ -81,3 +154,15 @@ Now, I should acknowledge that **I haven't tried implementing this in the code y
 ### Conclusion
 
 To translate C function pointers to Rust, I think the best path forward would be to **use Rust's function pointers** and to add a requirement that **all of the pointers that are used for a given function parameter or struct field must have the same type**. As far as I can think of, this would most accurately reflect the semantics of the original program. However, there may be better solutions that I haven't considered yet, so I'd welcome any critiques.
+
+---
+
+I'm trying to figure out how to do type inference for function pointers, and I think this should work.
+
+Each time a local value is called as a function, that local value receives the type of `fn(i)`, where `i` is a unique number. Anytime a function is assigned to a value, that value also gets a type of `fn(i)`, where `i` is a unique number. We also note that the constant function has a type that equals `fn(i)`. Then, we use equivalence to find all of the functions that should have equivalent types, and we ensure that those functions share the exact same type in our constraints.
+
+We will probably have to have a map that tracks the "phantom function types".
+
+### TODO
+
+- [ ] Work on implementing function pointer type inference in the code

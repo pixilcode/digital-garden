@@ -1,0 +1,1 @@
+This is a collection of my notes for the Foundations of Pedagogy course given by CIRTL.
