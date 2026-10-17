@@ -86,3 +86,7 @@ I think this is why refinator wasn't included in the image.
 ---
 
 My new working theory is that the instructions in refinator's `README-OSC.md` assume that refinator is already in `~/refinator`.
+
+---
+
+My theory is right. In the instructions, it indicates that each time that refinator changes, you need to rsync _refinator_, not the _`rust-ubuntu.sif` image_.

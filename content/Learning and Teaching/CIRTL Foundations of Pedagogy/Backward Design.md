@@ -41,6 +41,31 @@ Backwards design seems to be very beneficial for students. Everything that they 
 
 And I think backwards design makes curriculum design a lot less intimidating for me, too. If I'm teaching a class on "algorithms", that's a very general topic, and I could go a lot of different ways from there. Identifying the learning objectives, then the assessments, then the instructional methods helps me to feel a lot more confident that what I'm teaching is actually valuable to the students.
 
+## Engage
+
+I designed a visual model for the steps of backwards design. The model treats the process of curriculum design as a map-building process.
+
+![My model for backwards design](assets/backwards-design-model.svg)
+
+## Reflect
+
+> [!question] Prompt
+> Take a moment to articulate a short summary of your beliefs about teaching and learning. After you have done one round of articulation, review your summary and make any revisions you like. Then, think about and respond to the questions below:
+> 
+> - What aspects of backward design align with your current beliefs about teaching and learning? (LO3)
+> - To what extent do you see alignment between your goals, methods, and assessment strategies? In what way might backward design help you refine this alignment? (LO1)
+> - In what ways might aspects of backward design be helpful to support learning for students from the variety of background you teach? (LO5)
+
+### My beliefs about teaching
+
+Teaching isn't about the assignments or about the assessments, it's about the people. When you focus on serving those that you teach, both you and the students will enjoy the class more. The goal of teaching is to help the students feel empowered so that they can go out and change the world themselves.
+
+### Question responses
+
+I like that backward design, and the overarching concept of _understanding by design_, focus on ensuring that the student understands the concept. It can be easy to get distracted by the large amount of content that _could_ be taught in a course and lose sight of the fact that the students might be overwhelmed by all the content. If you lose sight of the focus of teaching, you'll fall short of helping your students.
+
+In terms of supporting a variety of backgrounds, I hadn't really pondered that up to this moment. However, I think it makes sense that when you are focusing on the learning objectives as your north star, that allows you to adapt your assessments and your instruction to the needs of your students. Some learning activities might be needed for one group of students, but not for another. One set of students might not understand what a for loop is, so you may need an extra lesson about that. Another set of students might be experts at recursion, so you can drop that lesson.
+
 ## Further Resources
 
 - [Using Backward Design to Plan Your Course — OSU](https://teaching.resources.osu.edu/teaching-topics/using-backward-design-plan-your)
