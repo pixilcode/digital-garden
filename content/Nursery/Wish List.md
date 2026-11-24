@@ -60,7 +60,7 @@ I've recently been trying to own the music that I listen to, rather than just st
 
 Also, for the purchases that are digital only (as in, you download the music files), if you'd like to do something physical as well, feel free to write a letter or card that I can open, then send the files later!
 
-_Note: I'd also like to support the artists who wrote the music, so if you'd like to buy me music, please purchase it from them directly! And some artists (like camiidae) offer their albums for a low price, like $1. If I were to buy these albums, I'd probably pay at least $10 for them. That said, pay what you feel is best, I won't ask about it._
+_Note: I'd also like to support the artists who wrote the music, so if you'd like to buy me music, please purchase it from them directly! And some artists (like camiidae) offer their albums for a low price, like \$1. If I were to buy these albums, I'd probably pay at least \$10 for them. That said, pay what you feel is best, I won't ask about it._
 
 - [x] [Kaladin — The Black Piper](https://theblackpiper.com/album/1527700/kaladin)
 - [ ] [Not All Those Who Wander Are Lost ― Anna Lapwood](https://www.prestomusic.com/classical/products/9991454--not-all-those-who-wander-are-lost)
